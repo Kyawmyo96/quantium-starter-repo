@@ -27,3 +27,14 @@ Features:
 	```
 
 4. Open the URL shown in the terminal (usually http://127.0.0.1:8050).
+
+## Run tests via bash script
+
+Use the CI-friendly test runner script:
+
+```bash
+bash run_tests.sh
+```
+
+The script activates the project virtual environment, runs the test suite, and exits
+with code `0` when tests pass (or `1` if something fails).
