@@ -6,6 +6,11 @@ This repo contains everything you need to get started on the program! Good luck!
 This project includes a Dash app that visualises daily Pink Morsel sales and marks the
 price increase date (2021-01-15).
 
+Features:
+- Region filter via radio buttons: `north`, `east`, `south`, `west`, `all`
+- Date-sorted line chart of daily Pink Morsel sales
+- Custom CSS styling (see `assets/styles.css`)
+
 ### Run locally
 
 1. Activate your virtual environment.

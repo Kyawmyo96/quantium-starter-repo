@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f7f3ff 0%, #ffe9f3 100%);
+    color: #2d2a32;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.card {
+    width: min(1100px, 100%);
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(4px);
+    border-radius: 18px;
+    box-shadow: 0 20px 45px rgba(134, 72, 122, 0.18);
+    padding: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.3px;
+    color: #5a1b56;
+}
+
+.subtitle {
+    margin: 10px 0 20px;
+    font-size: 1rem;
+    color: #5f4d62;
+}
+
+.region-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.radio-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #dcb6d5;
+    background: #ffffff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.radio-input {
+    accent-color: #9a3d8f;
+}
+
+.chart {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+}
